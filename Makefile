@@ -54,7 +54,7 @@ CONFIGURE_ARGS +=	-DLUA_PRG=${MODLUA_BIN} \
 			-DLUA_LIBRARIES=${MODLUA_LIB} \
 			-DLIBLUV_INCLUDE_DIR=${WRKBUILD}/deps/include \
 			-DLIBLUV_LIBRARY=${WRKBUILD}/deps/lib/libluv.a \
-			-DPREFER_LUA=ON # disables LuaJIT
+			-DPREFER_LUA=OFF # enables LuaJIT
 
 # Tests need gmake
 USE_GMAKE = Yes
